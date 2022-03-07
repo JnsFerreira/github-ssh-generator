@@ -11,7 +11,7 @@ Generates automatic ssh key for Github authentication
 3 - Modify the email with your Github email. The part of code looks like this:
 
 ```shell
-ssh-keygen -t ed25519 -C "someone@domain.com"
+ssh-keygen -t ed25519 -C "your-email-here@domain.com"
 
 ```
 
