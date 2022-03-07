@@ -19,3 +19,6 @@ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 
 echo "Now, follow the steps on github page"
 google-chrome https://github.com/settings/keys
+
+echo "Your ssh key"
+cat $HOME/.ssh/id_ed25519.pub
